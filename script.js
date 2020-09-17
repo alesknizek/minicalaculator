@@ -26,8 +26,8 @@ function calc(){
 
 function zmena(){
     console.log("zmena");
-    var x = document.getElementById("text3");
-    var y = document.getElementById("text4");
-    x = parseFloat(x);
-    document.getElementById("zmena").innerHTML = x * y;
+    var x = document.getElementById("text3").value;
+    var y = document.getElementById("text4").value;
+    y = parseInt(y);
+    document.getElementById("text5").innerHTML = x * y;
 }
