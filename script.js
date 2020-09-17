@@ -1,5 +1,5 @@
 
-function calc(select){
+function calc(){
     var x = document.getElementById("text1");
     var y = document.getElementById("text2");
     z = document.getElementById("select").value;
@@ -7,7 +7,7 @@ function calc(select){
     if(z == 0){
         console.log("x + y");
         document.getElementById("vysledek").innerHTML = x + y;
-        
+
     }else if(z == 1){
         console.log("x - y");
         document.getElementById("vysledek").innerHTML = x - y;
@@ -20,4 +20,11 @@ function calc(select){
         console.log("x / y");
         document.getElementById("vysledek").innerHTML = x / y;
     } 
+}
+
+function zmena(){
+    console.log("zmena");
+    var x = document.getElementById("text3");
+    var y = document.getElementById("text4");
+    document.getElementById("zmena").innerHTML = x * y;
 }

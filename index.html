@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <title>mini calculator</title>
+    <style>
+        body{ 
+            font-size: larger;
+            padding: 10px;
+        }
+    </style>
+
 </head>
 <body>
-    <input type="number" id="text1">
+    <input type="text" id="text1">
     <select id="select">
         <option value="0">+</option>
         <option value="1">-</option>
@@ -17,6 +24,13 @@
     <input type="number" id="text2">
     <button onclick="calc()">=</button>
     <div id="vysledek"></div>
+
+
+    <input id="text3" type="text">
+    <input id="text4" type="number" onclick="zmena()">
+    <div id="text5">
+
+    </div>
 
 </body>
 </html>
