@@ -5,15 +5,19 @@ function calc(select){
     z = document.getElementById("select").value;
 
     if(z == 0){
-        console.log(x + y);
+        console.log("x + y");
         document.getElementById("vysledek").innerHTML = x + y;
+        
     }else if(z == 1){
         console.log("x - y");
+        document.getElementById("vysledek").innerHTML = x - y;
 
     }else if(z == 2){
         console.log("x * y");
+        document.getElementById("vysledek").innerHTML = x * y;
 
     }else if(z == 3){
         console.log("x / y");
+        document.getElementById("vysledek").innerHTML = x / y;
     } 
 }
