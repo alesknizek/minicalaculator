@@ -1,5 +1,5 @@
 body{
-    background-image: url(obr/hexi-wave-3d-animated-motion-background.jpg);
+    background-image: url(obr/hexagonal-grid_web.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -20,8 +20,14 @@ body{
 
 #calc{
     font-size: larger;
+    margin-bottom: 2em;
 }
 
 #vysledek{
-    color: red;
+    color: lime;
+}
+
+h1{
+    color: lime;
+    border-bottom: lime solid 2px;
 }

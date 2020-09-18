@@ -9,6 +9,7 @@ function calc(){
         x = parseFloat(x);
         y = parseFloat(y);
         document.getElementById("vysledek").innerHTML = x += y;
+        //  document.getElementById("vysledek").style.border: solid black 2px;
 
     }else if(z == 1){
         console.log("x - y");
