@@ -35,3 +35,13 @@ h1{
 #text5{
     color: lime;
 }
+
+#text1 ,#text2, #text3, #text4{
+    color: lime;
+    border: none;
+    border-bottom: lime solid 2px;
+    background: transparent;
+}
+button, select{
+    size: 2em;
+}
