@@ -1,0 +1,27 @@
+body{
+    background-image: url(obr/hexi-wave-3d-animated-motion-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover ;
+    margin: 0;
+}
+
+#container{ 
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 900px;
+    vertical-align: middle;
+
+}
+
+#calc{
+    font-size: larger;
+}
+
+#vysledek{
+    color: red;
+}
