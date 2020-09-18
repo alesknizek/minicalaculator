@@ -29,5 +29,9 @@ body{
 
 h1{
     color: lime;
-    border-bottom: lime solid 2px;
+    text-decoration: underline;
+}
+
+#text5{
+    color: lime;
 }
