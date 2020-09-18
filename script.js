@@ -28,6 +28,10 @@ function zmena(){
     console.log("zmena");
     var x = document.getElementById("text3").value;
     var y = document.getElementById("text4").value;
+    var text = " ";
     y = parseInt(y);
-    document.getElementById("text5").innerHTML = x * y;
+    for(var i = 0;i < y;i++){
+        text += x + "  ";
+    }
+    document.getElementById("text5").innerHTML = text;
 }
